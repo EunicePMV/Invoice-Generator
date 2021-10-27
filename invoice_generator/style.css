@@ -1,13 +1,18 @@
+.whole{
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-top: 50px;
+}
+
 .col{
 	border: 1px solid red;
 	margin: auto;
-	padding:  10px;
 	height: 150px;
 	width: 150px;
-	text-align: right;
+	text-align: left;
 }
 
-.col-8{
+.col-10{
 	border: 1px solid blue;
 	margin: auto;
 	padding:  10px;
@@ -31,4 +36,9 @@ h1{
 	border: 1px solid green;
 	margin: auto;
 	padding:  10px;
+	font-family: sans-serif;
+}
+
+#date{
+	text-align: right;
 }
