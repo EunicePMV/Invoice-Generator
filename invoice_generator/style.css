@@ -5,7 +5,6 @@
 }
 
 .col{
-	border: 1px solid red;
 	margin: auto;
 	height: 150px;
 	width: 150px;
@@ -13,7 +12,6 @@
 }
 
 .col-10{
-	border: 1px solid blue;
 	margin: auto;
 	padding:  10px;
 	height: 150px;
@@ -24,8 +22,11 @@ h1{
 	font-family: PT Sans;
 }
 
+#space{
+	height: 100px;
+}
+
 .col-sm{
-	border: 1px solid green;
 	margin: auto;
 	padding:  0px;
 	font-family: sans-serif;
@@ -33,12 +34,15 @@ h1{
 }
 
 .col-md{
-	border: 1px solid green;
 	margin: auto;
-	padding:  10px;
+	padding:  20px, 10px, 10px, 10px;
 	font-family: sans-serif;
 }
 
 #date{
 	text-align: right;
+}
+
+table.table{
+	margin-top: 75px;
 }
