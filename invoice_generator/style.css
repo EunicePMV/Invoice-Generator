@@ -1,21 +1,19 @@
-.whole{
-	margin-left: 350px;
-	margin-right: 350px;
-	margin-top: 50px;
+@page{
+	size: a4 portrait;
+	margin: 0mm;
 }
 
-.col{
-	margin: auto;
-	height: 150px;
-	width: 150px;
-	text-align: left;
+img{
+	height: 100%;
+	width: 100%;
+	padding: 10px;
 }
 
 .col-10{
 	margin: auto;
 	padding:  10px;
-	height: 150px;
-	width: 150px;
+	height: 50px;
+	width: 50px;
 }
 
 h1{
@@ -33,7 +31,7 @@ h1{
 	font-size: small;
 }
 
-.col-md{
+.col{
 	margin: auto;
 	padding:  20px, 10px, 10px, 10px;
 	font-family: sans-serif;
@@ -43,6 +41,8 @@ h1{
 	text-align: right;
 }
 
-table.table{
-	margin-top: 75px;
+.table{
+	margin-top: 50px;
+	padding: auto;
+	font-family: sans-serif;
 }
